@@ -1,0 +1,56 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+@import "rails_bootstrap_forms";
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+.container { padding: 35px 10px 10px 10px;}
+p { font-size:12px; color: #22211d;}
+body {background: linear-gradient(white, black)}
+.img {float: left;}
+.navcontainer {width:100%;}
+
+div#logo {
+  float: left;
+}
+
+div#navmenu {
+  float: right;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #000;
+    color:#fff
+}
+
+p {
+    letter-spacing: 3px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px 10px 10px 10px;
+}
+
+h1 {
+    letter-spacing: 20px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 20px 20px 10px 10px;
+    font-size: 14px;
+}
